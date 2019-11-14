@@ -6,8 +6,7 @@ RUN apt-get update && apt-get install -y \
         tesseract-ocr \
         libtesseract-dev \
         locate \
-    && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/* \
-    && pip install -r requirements.txt
+    && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 
 USER gitpod
 
