@@ -1,1 +1,2 @@
 pytesseract
+pil-compat
